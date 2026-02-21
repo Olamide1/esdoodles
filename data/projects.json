@@ -249,6 +249,42 @@
     "tools": ["Procreate", "Photoshop"]
   },
   {
+    "id": "rent-is-due-piggytech",
+    "title": "Rent Is Due — PiggyTech Campaign",
+    "year": 2024,
+    "lane": "social",
+    "tags": ["video campaign", "visual storytelling", "production", "brand campaign", "script"],
+    "thumbnail": "assets/img/projects/rent-is-due-thumb.jpg",
+    "images": [],
+    "alt_text": "Video campaign production for PiggyTech's Rent Is Due campaign",
+    "description": "Visual storyteller on a brand video campaign for PiggyTech — scripted and produced the campaign end-to-end, assembling the team, managing the budget, and leading creative direction.",
+    "story": [
+      "Rent Is Due is a video campaign produced for PiggyTech. As visual storyteller on the project, I handled the full production pipeline: scripting the concept, putting together the creative team, setting and managing the budget, and overseeing creative direction through delivery.",
+      "The campaign required balancing a clear brand message with an emotionally resonant visual narrative — the kind of work that lives at the intersection of storytelling and strategic communication."
+    ],
+    "role": "Visual Storyteller — Script, Production, Creative Direction",
+    "tools": ["Final Draft", "Google Drive"],
+    "external_link": "https://drive.google.com/drive/folders/1dRJgUrVSGkyAJuXusv4p-H1a9MdCU6zdb"
+  },
+  {
+    "id": "edh-series-marketing",
+    "title": "E Dey Happen — Series Marketing",
+    "year": 2024,
+    "lane": "writing",
+    "tags": ["newsletter", "content strategy", "email marketing", "animation", "indie series", "substack"],
+    "thumbnail": "assets/img/projects/edh-series-thumb.jpg",
+    "images": [],
+    "alt_text": "E Dey Happen indie animated series Substack — content and email marketing",
+    "description": "Creative writer and marketer for E Dey Happen, an indie Nigerian animated series — handling content strategy, email marketing, and writing, producing, and publishing informational and educational content.",
+    "story": [
+      "E Dey Happen is an indie animated series exploring the hustle and hope that define the Nigerian experience — one episode at a time. As the creative writer on the project, I manage the full content and marketing pipeline: strategy, email campaigns, newsletter writing, and production of educational and informational content via Substack.",
+      "The role blends editorial writing with audience-building — crafting the voice of the production journal while keeping the community engaged between episodes."
+    ],
+    "role": "Creative Writer — Content Strategy, Email Marketing, Newsletter",
+    "tools": ["Substack", "Notion"],
+    "external_link": "https://substack.com/@edhseries"
+  },
+  {
     "id": "celestial-quarterly",
     "title": "Celestial Quarterly",
     "year": 2024,
