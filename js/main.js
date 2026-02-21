@@ -188,7 +188,7 @@ async function injectFooter(profile) {
 <div class="container footer__inner">
   <div class="footer__brand">
     <span class="footer__name">${escHtml(profile.name)}</span>
-    <p class="footer__tagline">writer · illustrator · social media manager</p>
+    <p class="footer__tagline">visual storyteller · creative writer &amp; illustrator</p>
   </div>
   <nav class="footer__nav" aria-label="Footer navigation">
     <ul role="list">
