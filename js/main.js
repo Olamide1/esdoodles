@@ -220,13 +220,15 @@ async function injectFooter(profile) {
 async function initHomePage() {
   if (!document.querySelector('.hero')) return;
 
-  let copy, projects, writing, profile;
+  /* Batch all home data in one parallel request set (profile already fetched for footer, so cached) */
+  let copy, projects, writing, profile, riveItems;
   try {
-    [copy, projects, writing, profile] = await Promise.all([
+    [copy, projects, writing, profile, riveItems] = await Promise.all([
       fetchJSON('data/copy.json'),
       fetchJSON('data/projects.json'),
       fetchJSON('data/writing.json'),
       fetchJSON('data/profile.json'),
+      fetchJSON('data/rive.json'),
     ]);
   } catch (err) {
     console.warn('Home page data load error:', err);
@@ -237,7 +239,7 @@ async function initHomePage() {
   populateLanes(copy, projects, profile);
   populateProof(copy);
   populateWritingHighlights(writing, profile);
-  populateRiveHighlight(profile);
+  populateRiveHighlight(profile, riveItems);
 
   /* Re-observe any [data-reveal] elements we just injected */
   observeRevealElements();
@@ -335,14 +337,15 @@ function populateWritingHighlights(writing, profile) {
   observeRevealElements(list);
 }
 
-/* ── Interactive / Rive highlight (1 featured piece) ── */
-function populateRiveHighlight(profile) {
+/* ── Interactive / Rive highlight (1 featured piece) ──
+   riveItems: optional array from batch load on home; avoids extra fetch. */
+function populateRiveHighlight(profile, riveItems) {
   const container = document.getElementById('rive-highlight');
   if (!container) return;
 
-  fetchJSON('data/rive.json').then(riveItems => {
+  const useItems = (items) => {
     const featuredId = (profile.featured.rive || [])[0];
-    const item       = riveItems.find(r => r.id === featuredId) || riveItems[0];
+    const item       = items.find(r => r.id === featuredId) || items[0];
     if (!item) return;
 
     container.innerHTML = `
@@ -369,7 +372,13 @@ function populateRiveHighlight(profile) {
       </div>`;
 
     observeRevealElements(container);
-  }).catch(() => {
+  };
+
+  if (Array.isArray(riveItems) && riveItems.length > 0) {
+    useItems(riveItems);
+    return;
+  }
+  fetchJSON('data/rive.json').then(useItems).catch(() => {
     container.innerHTML = `
       <p class="text-muted">
         Interactive work available on <a href="interactive.html">the Interactive page</a>.

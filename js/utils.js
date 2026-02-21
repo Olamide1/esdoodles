@@ -20,15 +20,23 @@ function qsa(selector, parent = document) {
   return Array.from(parent.querySelectorAll(selector));
 }
 
+/** Cache for fetchJSON: same URL = one request (avoids duplicate network calls). */
+const _fetchJSONCache = new Map();
+
 /**
- * Fetch JSON from a URL
+ * Fetch JSON from a URL. Cached by URL so repeated calls reuse the same request.
  * @param {string} url
  * @returns {Promise<any>}
  */
 async function fetchJSON(url) {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`fetchJSON: failed to load ${url} (${res.status})`);
-  return res.json();
+  let p = _fetchJSONCache.get(url);
+  if (p) return p;
+  p = fetch(url).then(function (res) {
+    if (!res.ok) throw new Error('fetchJSON: ' + url + ' (' + res.status + ')');
+    return res.json();
+  });
+  _fetchJSONCache.set(url, p);
+  return p;
 }
 
 /**
