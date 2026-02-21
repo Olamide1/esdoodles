@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" data-mode="portfolio">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Writing — E.S.Doodles</title>
+  <meta name="description" content="Writing samples by E.S.Doodles — essays, articles, scripts, captions, and newsletters about mythology, visual culture, and creative practice.">
+
+  <meta property="og:title"       content="Writing — E.S.Doodles">
+  <meta property="og:description" content="Essays, articles, scripts, captions, and newsletters.">
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://esdoodles.com/writing.html">
+  <meta property="og:image"       content="https://esdoodles.com/assets/img/og-writing.jpg">
+
+  <meta name="twitter:card"  content="summary_large_image">
+  <meta name="twitter:title" content="Writing — E.S.Doodles">
+  <meta name="twitter:image" content="https://esdoodles.com/assets/img/og-writing.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/themes.css">
+  <link rel="stylesheet" href="css/pages.css">
+
+  <script>
+    (function () {
+      var t = localStorage.getItem('esd-theme') || 'dark';
+      var m = localStorage.getItem('esd-mode')  || 'portfolio';
+      document.documentElement.dataset.theme = t;
+      document.documentElement.dataset.mode  = m;
+    })();
+  </script>
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Skip to main content</a>
+  <header id="site-header" class="site-header"></header>
+
+  <main id="main">
+
+    <div class="page-header">
+      <div class="container">
+        <p class="page-header__eyebrow label">writing</p>
+        <h1 class="page-header__title">words</h1>
+        <p class="page-header__sub">
+          Essays, articles, scripts, captions, and newsletters.
+          Mythology, creative practice, brand voice, and visual culture.
+        </p>
+      </div>
+    </div>
+
+    <section class="section" aria-label="Writing list">
+      <div class="container">
+
+        <!-- Download strip -->
+        <div class="writing-download-strip" data-reveal>
+          <div class="writing-download-strip__text">
+            <strong>Writing Samples PDF</strong>
+            Scripts, captions, and excerpts in one document.
+          </div>
+          <a href="assets/docs/writing-samples.pdf"
+             class="btn btn--secondary btn--sm"
+             download
+             aria-label="Download writing samples PDF">
+            download samples ↓
+          </a>
+        </div>
+
+        <!-- Filters -->
+        <div class="filter-bar" role="group" aria-label="Filter writing by type">
+          <div class="filter-bar__chips" id="writing-filter-chips">
+            <!-- Injected by JS -->
+          </div>
+        </div>
+
+        <!-- Writing list -->
+        <div
+          id="writing-list"
+          aria-live="polite"
+          aria-label="Writing items"
+        >
+          <!-- Populated by JS below -->
+          <noscript>
+            <p>Enable JavaScript to view the writing list.</p>
+          </noscript>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="site-footer" class="site-footer"></footer>
+
+  <script src="js/utils.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/mode.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    /* ── Writing page: inline script ── */
+    const WRITING_TYPES = ['All', 'Article', 'Essay', 'Script', 'Captions', 'Newsletter'];
+    let allWriting      = [];
+    let activeType      = 'All';
+
+    function buildWritingFilters() {
+      const bar = document.getElementById('writing-filter-chips');
+      if (!bar) return;
+      bar.innerHTML = WRITING_TYPES.map(type => `
+        <button
+          class="filter-chip${type === activeType ? ' active' : ''}"
+          data-type="${type}"
+          aria-pressed="${type === activeType}"
+        >${type}</button>`).join('');
+
+      bar.querySelectorAll('.filter-chip').forEach(btn => {
+        btn.addEventListener('click', () => {
+          activeType = btn.dataset.type;
+          bar.querySelectorAll('.filter-chip').forEach(b => {
+            b.classList.toggle('active', b.dataset.type === activeType);
+            b.setAttribute('aria-pressed', String(b.dataset.type === activeType));
+          });
+          renderWriting();
+        });
+      });
+    }
+
+    function renderWriting() {
+      const list = document.getElementById('writing-list');
+      if (!list) return;
+
+      const items = allWriting.filter(w =>
+        activeType === 'All' || w.type === activeType
+      );
+
+      if (items.length === 0) {
+        list.innerHTML = `<p class="text-muted" style="font-style:italic;padding:var(--sp-7) 0">nothing here for that filter yet.</p>`;
+        return;
+      }
+
+      list.innerHTML = items.map(w => {
+        const isExt = w.link && w.link.startsWith('http');
+        const target = isExt ? ' target="_blank" rel="noopener noreferrer"' : '';
+        const tagsHTML = (w.tags || []).slice(0, 4).map(t =>
+          `<span class="tag-pill">${escHtml(t)}</span>`
+        ).join('');
+
+        return `
+          <article class="writing-item" data-reveal>
+            <div>
+              <div class="writing-item__meta">
+                <span class="label">${escHtml(w.type)}</span>
+                <span class="text-muted" style="font-size:var(--text-xs)">·</span>
+                <span class="text-muted" style="font-size:var(--text-xs)">${escHtml(w.platform)}</span>
+                ${w.word_count ? `<span class="text-muted" style="font-size:var(--text-xs)">${w.word_count.toLocaleString()} words</span>` : ''}
+              </div>
+              <a href="${escHtml(w.link)}" class="writing-item__title"${target}>${escHtml(w.title)}</a>
+              <p class="writing-item__excerpt">${escHtml(w.excerpt)}</p>
+              <div class="writing-item__tags">${tagsHTML}</div>
+            </div>
+            <a href="${escHtml(w.link)}" class="writing-item__link"${target}>
+              ${isExt ? 'read ↗' : 'view →'}
+            </a>
+          </article>`;
+      }).join('');
+
+      // Trigger reveal
+      document.querySelectorAll('[data-reveal]').forEach(el => {
+        setTimeout(() => el.classList.add('visible'), 50);
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      try {
+        allWriting = await fetchJSON('data/writing.json');
+        buildWritingFilters();
+        renderWriting();
+      } catch (e) {
+        const list = document.getElementById('writing-list');
+        if (list) list.innerHTML = `<p class="text-muted">Could not load writing data. Ensure you're running a local server.</p>`;
+      }
+    });
+  </script>
+
+</body>
+</html>

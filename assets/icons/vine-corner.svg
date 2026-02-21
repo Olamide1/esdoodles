@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none" aria-hidden="true">
+  <!-- Main stem -->
+  <path d="M10 190 C10 100 80 80 100 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <!-- Branch 1 -->
+  <path d="M35 155 C55 140 75 145 90 130" stroke="currentColor" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <!-- Branch 2 -->
+  <path d="M55 115 C75 100 80 80 70 65" stroke="currentColor" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <!-- Branch 3 -->
+  <path d="M72 78 C88 65 100 40 95 25" stroke="currentColor" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <!-- Leaf 1 -->
+  <ellipse cx="90" cy="130" rx="10" ry="6" transform="rotate(-35 90 130)" fill="currentColor" opacity="0.5"/>
+  <!-- Leaf 2 -->
+  <ellipse cx="70" cy="65" rx="10" ry="6" transform="rotate(-55 70 65)" fill="currentColor" opacity="0.5"/>
+  <!-- Leaf 3 -->
+  <ellipse cx="40" cy="165" rx="8" ry="5" transform="rotate(20 40 165)" fill="currentColor" opacity="0.4"/>
+  <!-- Leaf 4 -->
+  <ellipse cx="95" cy="25" rx="9" ry="5" transform="rotate(-80 95 25)" fill="currentColor" opacity="0.4"/>
+  <!-- Tendril 1 -->
+  <path d="M35 155 C25 148 20 155 28 162 C36 169 38 158 32 153" stroke="currentColor" stroke-width="0.75" fill="none" opacity="0.45"/>
+  <!-- Tendril 2 -->
+  <path d="M72 78 C62 68 58 75 66 82 C74 89 76 76 68 73" stroke="currentColor" stroke-width="0.75" fill="none" opacity="0.45"/>
+  <!-- Small floret at stem tip -->
+  <circle cx="100" cy="10" r="3" fill="currentColor" opacity="0.6"/>
+  <circle cx="96"  cy="7"  r="1.5" fill="currentColor" opacity="0.4"/>
+  <circle cx="104" cy="7"  r="1.5" fill="currentColor" opacity="0.4"/>
+  <circle cx="100" cy="4"  r="1.5" fill="currentColor" opacity="0.4"/>
+</svg>

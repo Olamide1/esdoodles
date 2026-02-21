@@ -1,0 +1,122 @@
+[
+  {
+    "id": "digital-mythology",
+    "title": "Digital Mythology: Why the Internet Keeps Reinventing the Greeks",
+    "type": "Article",
+    "platform": "Medium",
+    "link": "https://medium.com/@esdoodles",
+    "word_count": 2400,
+    "tags": ["mythology", "internet culture", "visual media", "analysis", "pop culture"],
+    "excerpt": "Every few years, Greek mythology resurfaces online with new urgency. It's not nostalgia — it's something deeper about how we build shared narratives in digital spaces where everything is reference and nothing is original."
+  },
+  {
+    "id": "persephone-paradox",
+    "title": "The Persephone Paradox: Agency, Myth, and the Modern Reader",
+    "type": "Essay",
+    "platform": "Medium",
+    "link": "https://medium.com/@esdoodles",
+    "word_count": 3100,
+    "tags": ["mythology", "feminism", "essay", "analysis", "Persephone", "literary criticism"],
+    "excerpt": "The myth of Persephone has been retold hundreds of times. Each retelling reveals more about the era that produced it than about the original myth itself — and right now, what it reveals is complicated."
+  },
+  {
+    "id": "captioning-as-craft",
+    "title": "Captioning as Craft: Writing for Visual Platforms",
+    "type": "Article",
+    "platform": "Medium",
+    "link": "https://medium.com/@esdoodles",
+    "word_count": 1800,
+    "tags": ["writing craft", "social media", "instagram", "caption writing", "copywriting"],
+    "excerpt": "A good caption does what the image can't. It adds the second layer — context, humour, intimacy — that turns a scroll into a pause. Getting that right is a skill, and like most skills, it looks easier than it is."
+  },
+  {
+    "id": "artist-as-algorithm",
+    "title": "The Artist as Algorithm: What Social Media Does to Creative Identity",
+    "type": "Essay",
+    "platform": "Medium",
+    "link": "https://medium.com/@esdoodles",
+    "word_count": 2700,
+    "tags": ["creative nonfiction", "social media", "identity", "algorithm", "essay", "art practice"],
+    "excerpt": "There's a strange loop that happens when you start making art for an audience that's also making you. The feed shapes you and you shape the feed, until it becomes hard to tell which came first."
+  },
+  {
+    "id": "illustration-as-argument",
+    "title": "Illustration as Argument: How Images Make Claims",
+    "type": "Essay",
+    "platform": "Medium",
+    "link": "https://medium.com/@esdoodles",
+    "word_count": 2200,
+    "tags": ["illustration", "visual rhetoric", "communication", "essay", "critical thinking"],
+    "excerpt": "We talk about images as though they're transparent — windows onto subjects. But every illustration is a position, a frame, a point of view disguised as description. That disguise is the interesting part."
+  },
+  {
+    "id": "seasonal-content-guide",
+    "title": "A Practical Guide to Seasonal Content Strategy",
+    "type": "Article",
+    "platform": "Medium",
+    "link": "https://medium.com/@esdoodles",
+    "word_count": 1600,
+    "tags": ["content strategy", "social media", "marketing", "seasonal planning", "guide"],
+    "excerpt": "Seasonal content isn't just about holidays. It's about meeting your audience at the rhythm of their real life — which shifts, always, throughout the year in ways that generic monthly calendars never quite capture."
+  },
+  {
+    "id": "comic-script-sample",
+    "title": "Myth & Mind Issue 2 — Script Excerpt",
+    "type": "Script",
+    "platform": "Portfolio",
+    "link": "assets/docs/writing-samples.pdf",
+    "word_count": 800,
+    "tags": ["script", "comics writing", "sequential art", "mythology", "Hermes"],
+    "excerpt": "PAGE 7, PANEL 1. The crossroads is empty except for HERMES, who is sitting in the middle of it, legs crossed, eating a pomegranate. He is not supposed to be here. He knows it. He doesn't care."
+  },
+  {
+    "id": "brand-voice-essay",
+    "title": "Finding a Brand's Voice (Without Losing Your Own)",
+    "type": "Essay",
+    "platform": "Medium",
+    "link": "https://medium.com/@esdoodles",
+    "word_count": 1900,
+    "tags": ["brand voice", "copywriting", "writing craft", "content strategy", "professional writing"],
+    "excerpt": "Writing for a brand isn't ghostwriting. It's closer to method acting — you inhabit a voice that isn't yours, but the performance has to feel genuine or the audience sees through it immediately."
+  },
+  {
+    "id": "myth-digest-01",
+    "title": "Into the Underworld — Myth Digest Issue 01",
+    "type": "Newsletter",
+    "platform": "Self-published",
+    "link": "assets/docs/writing-samples.pdf",
+    "word_count": 1200,
+    "tags": ["newsletter", "mythology", "illustration notes", "editorial", "Hermes", "botanical"],
+    "excerpt": "Welcome to the first issue of Myth Digest. This month: why Hermes is the most underrated Olympian, what botanical illustration owes to Greek funeral rites, and a reading list for the mythology-curious."
+  },
+  {
+    "id": "captions-collection",
+    "title": "Instagram Caption Collection — Q1 2024",
+    "type": "Captions",
+    "platform": "Portfolio",
+    "link": "assets/docs/writing-samples.pdf",
+    "word_count": 600,
+    "tags": ["captions", "instagram", "brand voice", "copywriting", "portfolio sample"],
+    "excerpt": "A curated set of captions across three distinct brand voices — botanical lifestyle, wellness ritual, and dark fantasy — demonstrating tonal range and platform-native writing."
+  },
+  {
+    "id": "nature-writing-essay",
+    "title": "To Draw a Plant Is to Pay Attention",
+    "type": "Essay",
+    "platform": "Roots Review",
+    "link": "#",
+    "word_count": 2000,
+    "tags": ["nature writing", "illustration", "attention", "botanical", "personal essay", "craft"],
+    "excerpt": "Botanical illustration is a practice of radical attention. You cannot draw a plant until you've truly seen it — and truly seeing it takes longer than you think, longer than your first instinct to make a mark."
+  },
+  {
+    "id": "digital-comic-essay",
+    "title": "The Future of Comics Is Already Here (And It Doesn't Look Like a Comic)",
+    "type": "Article",
+    "platform": "Medium",
+    "link": "https://medium.com/@esdoodles",
+    "word_count": 2100,
+    "tags": ["comics", "digital media", "interactive", "rive", "animation", "future of storytelling"],
+    "excerpt": "Rive files, scrolling animations, and branching interactive narratives are already doing what comics do — creating sequential meaning from discrete images. We just haven't built the critical language to talk about them yet."
+  }
+]

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" data-mode="portfolio">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive — E.S.Doodles</title>
+  <meta name="description" content="Interactive Rive animations and interactive design work by E.S.Doodles — ambient loops, character reveals, and clickable narrative pieces.">
+
+  <meta property="og:title"       content="Interactive — E.S.Doodles">
+  <meta property="og:description" content="Rive animations and interactive design pieces.">
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://esdoodles.com/interactive.html">
+  <meta property="og:image"       content="https://esdoodles.com/assets/img/og-interactive.jpg">
+
+  <meta name="twitter:card"  content="summary_large_image">
+  <meta name="twitter:title" content="Interactive — E.S.Doodles">
+  <meta name="twitter:image" content="https://esdoodles.com/assets/img/og-interactive.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/themes.css">
+  <link rel="stylesheet" href="css/pages.css">
+
+  <script>
+    (function () {
+      var t = localStorage.getItem('esd-theme') || 'dark';
+      var m = localStorage.getItem('esd-mode')  || 'portfolio';
+      document.documentElement.dataset.theme = t;
+      document.documentElement.dataset.mode  = m;
+    })();
+  </script>
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Skip to main content</a>
+  <header id="site-header" class="site-header"></header>
+
+  <main id="main">
+
+    <div class="page-header">
+      <div class="container">
+        <p class="page-header__eyebrow label">interactive</p>
+        <h1 class="page-header__title">Rive work</h1>
+        <p class="page-header__sub">
+          Ambient loops, character reveals, and clickable narrative pieces —
+          all built in Rive. Where a live embed isn't available, a preview and link are shown.
+        </p>
+        <div style="margin-top:var(--sp-5)">
+          <a href="https://rive.app/@e.s.Doodles"
+             class="rive-profile-link"
+             target="_blank"
+             rel="noopener noreferrer"
+             aria-label="View full Rive profile — opens in new tab">
+            <span aria-hidden="true">✦</span> view full Rive profile
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <section class="section" aria-label="Interactive pieces">
+      <div class="container">
+
+        <!-- Tag filters -->
+        <div class="filter-bar" role="group" aria-label="Filter by tag" style="margin-bottom:var(--sp-7)">
+          <div class="filter-bar__chips" id="rive-filter-bar">
+            <!-- Populated by rive.js -->
+          </div>
+        </div>
+
+        <!-- Rive grid -->
+        <div class="rive-grid" id="rive-grid" aria-live="polite">
+          <!-- Populated by rive.js -->
+          <noscript><p>Enable JavaScript to view interactive pieces.</p></noscript>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="site-footer" class="site-footer"></footer>
+
+  <script src="js/utils.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/mode.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/rive.js"></script>
+
+</body>
+</html>

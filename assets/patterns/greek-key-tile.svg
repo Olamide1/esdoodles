@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter">
+  <!--
+    Greek meander / key pattern — tileable 80×80 unit.
+    Repeat with background-repeat:repeat for a seamless strip.
+  -->
+  <!-- Top-left key -->
+  <polyline points="4,4 4,24 24,24 24,14 14,14 14,4 4,4" fill="none"/>
+  <!-- Bottom-right key (mirrored) -->
+  <polyline points="76,76 76,56 56,56 56,66 66,66 66,76 76,76" fill="none"/>
+  <!-- Top-right connector -->
+  <polyline points="76,4 76,14 66,14 66,24 56,24 56,14 66,14" fill="none" opacity="0.6"/>
+  <!-- Bottom-left connector -->
+  <polyline points="4,76 4,66 14,66 14,56 24,56 24,66 14,66" fill="none" opacity="0.6"/>
+  <!-- Centre cross accent -->
+  <line x1="36" y1="40" x2="44" y2="40" opacity="0.3"/>
+  <line x1="40" y1="36" x2="40" y2="44" opacity="0.3"/>
+</svg>

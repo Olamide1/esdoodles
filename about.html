@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" data-mode="portfolio">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — E.S.Doodles</title>
+  <meta name="description" content="About E.S.Doodles — writer, illustrator, social media manager, and interactive designer. Based remotely, working with independent brands and publications.">
+
+  <meta property="og:title"       content="About — E.S.Doodles">
+  <meta property="og:description" content="Writer, illustrator, social media manager, and interactive designer.">
+  <meta property="og:type"        content="profile">
+  <meta property="og:url"         content="https://esdoodles.com/about.html">
+  <meta property="og:image"       content="https://esdoodles.com/assets/img/og-about.jpg">
+
+  <meta name="twitter:card"  content="summary_large_image">
+  <meta name="twitter:title" content="About — E.S.Doodles">
+  <meta name="twitter:image" content="https://esdoodles.com/assets/img/og-about.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/themes.css">
+  <link rel="stylesheet" href="css/pages.css">
+
+  <script>
+    (function () {
+      var t = localStorage.getItem('esd-theme') || 'dark';
+      var m = localStorage.getItem('esd-mode')  || 'portfolio';
+      document.documentElement.dataset.theme = t;
+      document.documentElement.dataset.mode  = m;
+    })();
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "E.S. Doodles",
+    "url": "https://esdoodles.com",
+    "description": "Content writer, illustrator, social media manager, and interactive designer.",
+    "sameAs": [
+      "https://www.instagram.com/e.s.doodles/",
+      "https://medium.com/@esdoodles",
+      "https://rive.app/@e.s.Doodles"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Skip to main content</a>
+  <header id="site-header" class="site-header"></header>
+
+  <main id="main">
+
+    <div class="page-header">
+      <div class="container">
+        <p class="page-header__eyebrow label">about</p>
+        <h1 class="page-header__title">hello.</h1>
+      </div>
+    </div>
+
+    <section class="section" aria-label="About E.S.Doodles">
+      <div class="container">
+
+        <div class="about-layout">
+
+          <!-- Bio column -->
+          <div class="about-bio" data-reveal>
+            <p>I'm E.S.Doodles — a writer, illustrator, and social media manager drawn to stories about mythology, identity, and the natural world.</p>
+            <p>My work lives at the crossover between image and text. I've written essays, illustrated comics, managed social media for brands, and built interactive pieces in Rive. The throughline is storytelling — finding the right form for a story, whether that's a caption, a comic page, or a Rive state machine.</p>
+            <p>I care about craft. The word that lands right, the line that earns its place, the caption that makes someone pause mid-scroll. I take that seriously across every medium.</p>
+            <p>When I'm not working, I'm reading myth retellings, doing reference studies from botanical illustrations, or mapping out new Rive state machines that will definitely become a side project someday.</p>
+
+            <!-- Working style -->
+            <div style="margin-top:var(--sp-9)">
+              <span class="label" style="display:block;margin-bottom:var(--sp-5);color:var(--persephone)">working style</span>
+              <ul class="working-style-list">
+                <li>I work best with clear briefs and room to ask questions early — before the work starts, not during delivery.</li>
+                <li>I communicate often. No surprises at handoff.</li>
+                <li>I take revision rounds seriously and document every decision. You'll always know why something looks the way it does.</li>
+                <li>I genuinely like collaborative feedback processes — good critique makes the work better.</li>
+                <li>I'm a strong self-editor and I'll tell you when something isn't working, even if it was my idea.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Sidebar -->
+          <aside class="about-sidebar" aria-label="Roles, services, and links">
+
+            <div class="about-list" data-reveal>
+              <span class="about-list__label">roles</span>
+              <ul id="about-roles">
+                <li>Content Writer</li>
+                <li>Illustrator</li>
+                <li>Social Media Manager</li>
+                <li>Interactive Designer (Rive)</li>
+              </ul>
+            </div>
+
+            <div class="about-list" data-reveal>
+              <span class="about-list__label">services</span>
+              <ul id="about-services">
+                <li>Illustration (character, editorial, botanical)</li>
+                <li>Comic writing and illustration</li>
+                <li>Social media strategy and content creation</li>
+                <li>Caption and caption script writing</li>
+                <li>Brand voice development</li>
+                <li>Long-form essays and articles</li>
+                <li>Interactive design in Rive</li>
+              </ul>
+            </div>
+
+            <div data-reveal>
+              <span class="about-list__label" style="display:block;margin-bottom:var(--sp-4)">tools</span>
+              <div class="tools-row" id="about-tools">
+                <!-- Populated by JS from profile.json -->
+              </div>
+            </div>
+
+            <div data-reveal>
+              <span class="about-list__label" style="display:block;margin-bottom:var(--sp-4)">find me</span>
+              <div class="about-links-row" id="about-links">
+                <!-- Populated by JS from profile.json -->
+              </div>
+            </div>
+
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section section--dark" aria-label="Contact">
+      <div class="container">
+        <div class="cta-strip__inner" data-reveal>
+          <p class="cta-strip__line">want to work together?</p>
+          <div style="display:flex;gap:var(--sp-3);flex-wrap:wrap;justify-content:center">
+            <a href="contact.html" class="btn btn--primary btn--lg">get in touch</a>
+            <a href="hire.html"    class="btn btn--secondary btn--lg">view resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="site-footer" class="site-footer"></footer>
+
+  <script src="js/utils.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/mode.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', async () => {
+      try {
+        const profile = await fetchJSON('data/profile.json');
+
+        /* Tools */
+        const toolsEl = document.getElementById('about-tools');
+        if (toolsEl && profile.tools) {
+          toolsEl.innerHTML = profile.tools.map(t =>
+            `<span class="tool-tag">${escHtml(t)}</span>`
+          ).join('');
+        }
+
+        /* Links */
+        const linksEl = document.getElementById('about-links');
+        const linkMap = [
+          { key: 'instagram', label: 'Instagram' },
+          { key: 'medium',    label: 'Medium'    },
+          { key: 'rive',      label: 'Rive'      },
+          { key: 'linkedin',  label: 'LinkedIn'  },
+        ];
+        if (linksEl && profile.links) {
+          linksEl.innerHTML = linkMap
+            .filter(l => profile.links[l.key])
+            .map(l => `
+              <a href="${escHtml(profile.links[l.key])}"
+                 class="btn btn--secondary btn--sm"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="${escHtml(l.label)} — opens in new tab">
+                ${escHtml(l.label)} ↗
+              </a>`).join('');
+        }
+
+      } catch (e) {
+        console.warn('About page: profile load error', e);
+      }
+    });
+  </script>
+
+</body>
+</html>

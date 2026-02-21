@@ -1,0 +1,197 @@
+{
+  "hero": {
+    "identity": "writer. illustrator. social media manager.",
+    "name": "E.S.Doodles",
+    "sub_line": "I make things worth looking at — and words worth reading. Stories in ink, pixels, and captions.",
+    "cta_work": "view work",
+    "cta_hire": "hire me",
+    "hire_mode_sub": "Content writer and illustrator driving engagement through visual storytelling. Open to full-time, contract, and freelance roles.",
+    "hire_mode_cta_primary": "view resume",
+    "hire_mode_cta_secondary": "get in touch"
+  },
+  "nav": {
+    "logo": "E.S.Doodles",
+    "mode_portfolio": "portfolio",
+    "mode_hire": "hire",
+    "theme_dark": "light mode",
+    "theme_light": "dark mode"
+  },
+  "sections": {
+    "lanes_heading": "the work",
+    "proof_heading": "by the numbers",
+    "writing_highlights_heading": "recent writing",
+    "interactive_heading": "interactive",
+    "cta_strip_line": "got a project in mind?",
+    "cta_strip_button": "let's talk"
+  },
+  "lanes": [
+    {
+      "id": "illustration",
+      "label": "Illustration",
+      "description": "Character work, editorial, personal series",
+      "link": "work.html?filter=illustration"
+    },
+    {
+      "id": "writing",
+      "label": "Writing",
+      "description": "Essays, articles, scripts, captions",
+      "link": "writing.html"
+    },
+    {
+      "id": "social",
+      "label": "Social Media",
+      "description": "Strategy, content, community management",
+      "link": "social.html"
+    },
+    {
+      "id": "interactive",
+      "label": "Interactive",
+      "description": "Rive animations and interactive pieces",
+      "link": "interactive.html"
+    }
+  ],
+  "proof_metrics": [
+    {
+      "label": "Peak monthly reach",
+      "value": "48K",
+      "timeframe": "single client campaign",
+      "note": "public"
+    },
+    {
+      "label": "Average saves per post",
+      "value": "380",
+      "timeframe": "botanical brand campaign",
+      "note": "public"
+    },
+    {
+      "label": "Waitlist conversions",
+      "value": "740",
+      "timeframe": "60-day launch campaign",
+      "note": "public"
+    }
+  ],
+  "about": {
+    "bio": [
+      "I'm E.S.Doodles — a writer, illustrator, and social media manager drawn to stories about mythology, identity, and the natural world.",
+      "My work lives at the crossover between image and text. I've written essays, illustrated comics, managed social media for brands, and built interactive pieces in Rive.",
+      "I care about craft — the word that lands right, the line that earns its place, the caption that makes someone pause mid-scroll."
+    ],
+    "working_style": [
+      "I work best with clear briefs and room to ask questions early.",
+      "I communicate often — no surprises at delivery.",
+      "I take revision rounds seriously and document every decision.",
+      "I genuinely like collaborative feedback processes.",
+      "I'm a strong self-editor and I'll tell you when something isn't working."
+    ],
+    "services": [
+      "Illustration (character, editorial, botanical)",
+      "Comic writing and illustration",
+      "Social media strategy and content creation",
+      "Caption and caption script writing",
+      "Brand voice development",
+      "Long-form essays and articles",
+      "Interactive design in Rive"
+    ]
+  },
+  "hire": {
+    "headline": "let's make something worth reading.",
+    "availability": "Currently available for freelance and contract work.",
+    "highlights": [
+      "Grew client Instagram from launch to 2,400 followers in 90 days through original illustrated content and strategic caption writing.",
+      "Wrote and illustrated a self-published comic anthology with [X] readers — from concept to print, solo.",
+      "Developed brand voice guides for [N] independent brands, all adopted across every client-facing channel.",
+      "Delivered illustrated editorial spreads for [N] publication issues, consistently on brief and on deadline.",
+      "Managed [N] concurrent client social accounts with engagement rates consistently above platform averages.",
+      "Built interactive Rive pieces for brand and personal projects, combining animation and interactive design."
+    ]
+  },
+  "contact": {
+    "heading": "get in touch",
+    "sub": "commissions, collabs, or just to say hi — I read every message.",
+    "fallback_text": "Or email directly:"
+  },
+  "footer": {
+    "tagline": "writer · illustrator · social media manager",
+    "copyright_name": "E.S.Doodles"
+  },
+  "brand_voice_samples": [
+    {
+      "brand_type": "botanical lifestyle",
+      "caption": "Some plants take years to bloom. Turns out that's true for most good things. 🌿 New ceramics in the studio — grown slowly, worth the wait."
+    },
+    {
+      "brand_type": "botanical lifestyle",
+      "caption": "The thing about growing things: they don't care about your schedule. This one's been sitting on the windowsill for eight months waiting for exactly the right moment. It knew."
+    },
+    {
+      "brand_type": "wellness / lunar",
+      "caption": "New moon energy: rest, reset, begin quietly. No grand announcements. Just you and your intentions and however much tea you need."
+    },
+    {
+      "brand_type": "wellness / lunar",
+      "caption": "Full moon tonight. If you've been carrying something heavy, you're allowed to put it down now. The light's good enough to see where to set it."
+    },
+    {
+      "brand_type": "dark fantasy / illustration",
+      "caption": "she drew the map from memory. she'd never been there. she'd always been there."
+    },
+    {
+      "brand_type": "dark fantasy / illustration",
+      "caption": "the underworld isn't dark. it's just the light from somewhere else, seen sideways."
+    }
+  ],
+  "content_calendar_sample": {
+    "week": "Sample Week — Botanical Brand",
+    "days": [
+      {
+        "day": "Monday",
+        "format": "Carousel",
+        "pillar": "Product education",
+        "topic": "5 ways to style dried botanicals at home",
+        "caption_note": "Educational, warm, ends with save prompt"
+      },
+      {
+        "day": "Tuesday",
+        "format": "Story sequence",
+        "pillar": "Behind-the-scenes",
+        "topic": "Morning in the studio — polling audience on next collection colour",
+        "caption_note": "Casual, founder voice, includes poll sticker"
+      },
+      {
+        "day": "Wednesday",
+        "format": "Single image",
+        "pillar": "Seasonal inspiration",
+        "topic": "Seasonal arrangement — current window display",
+        "caption_note": "Short, atmospheric, no hard CTA"
+      },
+      {
+        "day": "Thursday",
+        "format": "Carousel",
+        "pillar": "Sustainability values",
+        "topic": "How we source our materials — supplier stories",
+        "caption_note": "Specific, cited sourcing details, trust-building"
+      },
+      {
+        "day": "Friday",
+        "format": "Single image + Story",
+        "pillar": "Community feature",
+        "topic": "Customer arrangement reshare + DM prompt for next week's feature",
+        "caption_note": "Warm, community-first, encourages participation"
+      },
+      {
+        "day": "Saturday",
+        "format": "Story only",
+        "pillar": "Product",
+        "topic": "Weekend flash — low-key product mention in lifestyle context",
+        "caption_note": "Soft sell, lifestyle framing"
+      },
+      {
+        "day": "Sunday",
+        "format": "Rest / optional",
+        "pillar": "—",
+        "topic": "No post scheduled — rest day for the account",
+        "caption_note": "Intentional gap; maintains quality over quantity"
+      }
+    ]
+  }
+}

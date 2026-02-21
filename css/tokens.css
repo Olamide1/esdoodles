@@ -1,0 +1,121 @@
+/* ============================================================
+   TOKENS — E.S.Doodles design system
+   All CSS custom properties. No rules here.
+   ============================================================ */
+
+:root {
+  /* ── Brand palette ── */
+  --ink:         #0B0B12;
+  --paper:       #FFF7FB;
+  --persephone:  #FE2976;
+  --hades:       #1B1E3C;
+  --violet:      #812EED;
+  --sage:        #90C17C;
+  --peach:       #FFAA5C;
+  --blush:       #FFC9DE;
+
+  /* ── Brand gradients ── */
+  --g1: linear-gradient(135deg, #FE2976, #812EED);
+  --g2: linear-gradient(135deg, #812EED, #1B1E3C);
+  --g3: linear-gradient(135deg, #90C17C, #FFC9DE);
+
+  /* ── Semantic tokens (dark-first defaults) ── */
+  --bg:            #08061A;
+  --bg-alt:        #0C0918;
+  --surface:       #1B1E3C;
+  --surface-2:     #252849;
+  --surface-3:     #2E3256;
+  --text:          #FFF7FB;
+  --text-muted:    rgba(255, 247, 251, 0.55);
+  --text-faint:    rgba(255, 247, 251, 0.30);
+  --border:        rgba(255, 247, 251, 0.10);
+  --border-strong: rgba(255, 247, 251, 0.20);
+  --glow-primary:  rgba(254,  41, 118, 0.45);
+  --glow-violet:   rgba(129,  46, 237, 0.45);
+  --glow-soft:     rgba(129,  46, 237, 0.20);
+
+  /* ── Lane badge colours ── */
+  --badge-illustration: var(--violet);
+  --badge-comics:       var(--persephone);
+  --badge-writing:      var(--sage);
+  --badge-social:       var(--peach);
+  --badge-interactive:  var(--blush);
+  --badge-editorial:    var(--hades);
+
+  /* ── Typography ── */
+  --font-heading: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-body:    'Inter', system-ui, -apple-system, sans-serif;
+
+  /* ── Type scale ── */
+  --text-h1:    clamp(2.2rem,  4vw,  3.4rem);
+  --text-h2:    clamp(1.6rem,  2.6vw, 2.2rem);
+  --text-h3:    clamp(1.2rem,  1.8vw, 1.5rem);
+  --text-h4:    clamp(1rem,    1.4vw, 1.2rem);
+  --text-body:  clamp(1rem,    1.1vw, 1.125rem);
+  --text-sm:    0.875rem;
+  --text-xs:    0.75rem;
+
+  /* ── Font weights ── */
+  --weight-regular: 400;
+  --weight-medium:  500;
+  --weight-semi:    600;
+  --weight-bold:    700;
+
+  /* ── Line heights ── */
+  --leading-tight:  1.2;
+  --leading-snug:   1.4;
+  --leading-base:   1.6;
+  --leading-loose:  1.8;
+
+  /* ── Spacing scale (4px base) ── */
+  --sp-1:  4px;
+  --sp-2:  8px;
+  --sp-3:  12px;
+  --sp-4:  16px;
+  --sp-5:  24px;
+  --sp-6:  32px;
+  --sp-7:  48px;
+  --sp-8:  64px;
+  --sp-9:  80px;
+  --sp-10: 96px;
+
+  /* ── Layout ── */
+  --container-max:     1120px;
+  --container-pad-sm:  20px;
+  --container-pad:     32px;
+  --section-pad-sm:    40px;
+  --section-pad:       64px;
+
+  /* ── Border radius ── */
+  --radius-xs:   4px;
+  --radius-sm:   8px;
+  --radius-md:   16px;
+  --radius-lg:   24px;
+  --radius-xl:   32px;
+  --radius-pill: 999px;
+
+  /* ── Shadows ── */
+  --shadow-sm:   0 1px  4px rgba(0, 0, 0, 0.25);
+  --shadow-md:   0 4px 16px rgba(0, 0, 0, 0.35);
+  --shadow-lg:   0 8px 40px rgba(0, 0, 0, 0.45);
+  --shadow-card: 0 2px 12px rgba(0, 0, 0, 0.40), 0 0 0 1px var(--border);
+
+  /* ── Transitions ── */
+  --ease-out:  cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in:   cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-base: cubic-bezier(0.4, 0, 0.2, 1);
+
+  --dur-fast:  120ms;
+  --dur-base:  240ms;
+  --dur-slow:  400ms;
+
+  /* ── Z-index scale ── */
+  --z-below:    -1;
+  --z-base:      0;
+  --z-raised:   10;
+  --z-dropdown: 50;
+  --z-nav:     100;
+  --z-overlay: 150;
+  --z-lightbox:200;
+  --z-toast:   300;
+}

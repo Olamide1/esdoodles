@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" data-mode="portfolio">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work — E.S.Doodles</title>
+  <meta name="description" content="All work by E.S.Doodles — illustration, comics, writing, social media, interactive, and editorial projects. Filter by category.">
+
+  <meta property="og:title"       content="Work — E.S.Doodles">
+  <meta property="og:description" content="All projects: illustration, comics, writing, social media, interactive, editorial.">
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://esdoodles.com/work.html">
+  <meta property="og:image"       content="https://esdoodles.com/assets/img/og-work.jpg">
+
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Work — E.S.Doodles">
+  <meta name="twitter:image"       content="https://esdoodles.com/assets/img/og-work.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/themes.css">
+  <link rel="stylesheet" href="css/pages.css">
+
+  <script>
+    (function () {
+      var t = localStorage.getItem('esd-theme') || 'dark';
+      var m = localStorage.getItem('esd-mode')  || 'portfolio';
+      document.documentElement.dataset.theme = t;
+      document.documentElement.dataset.mode  = m;
+    })();
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Work — E.S.Doodles",
+    "description": "Portfolio gallery of illustration, comics, writing, social media, interactive, and editorial work.",
+    "url": "https://esdoodles.com/work.html"
+  }
+  </script>
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Skip to main content</a>
+  <header id="site-header" class="site-header"></header>
+
+  <main id="main">
+
+    <!-- Page header -->
+    <div class="page-header">
+      <div class="container">
+        <p class="page-header__eyebrow label">all work</p>
+        <h1 class="page-header__title">the work</h1>
+        <p class="page-header__sub">
+          Illustration, comics, writing, social media strategy, interactive design, and editorial.
+          Filter by lane or search by keyword.
+        </p>
+      </div>
+    </div>
+
+    <!-- Gallery -->
+    <section class="section" aria-label="Work gallery">
+      <div class="container">
+
+        <!-- Filters -->
+        <div class="filter-bar" role="group" aria-label="Filter by category">
+          <div class="filter-bar__chips" id="filter-chips" aria-label="Category filters">
+            <!-- Chips injected by gallery.js -->
+          </div>
+          <div class="search-input">
+            <span class="search-input__icon" aria-hidden="true">⌕</span>
+            <input
+              type="search"
+              id="gallery-search"
+              placeholder="search titles, tags…"
+              aria-label="Search projects by title or tag"
+              autocomplete="off"
+            >
+          </div>
+        </div>
+
+        <!-- Grid -->
+        <div
+          class="gallery-grid"
+          id="gallery-grid"
+          aria-live="polite"
+          aria-label="Project grid"
+        >
+          <!-- Populated by gallery.js -->
+          <noscript>
+            <p>Enable JavaScript to view the project gallery.</p>
+          </noscript>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Lightbox -->
+  <div
+    id="lightbox"
+    class="lightbox"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Image viewer"
+    hidden
+    tabindex="-1"
+  >
+    <div class="lightbox__inner">
+      <img class="lightbox__img" src="" alt="">
+      <p class="lightbox__counter" aria-live="polite"></p>
+    </div>
+    <button class="lightbox__close" aria-label="Close image viewer">&#215;</button>
+    <button class="lightbox__prev" aria-label="Previous image">&#8249;</button>
+    <button class="lightbox__next" aria-label="Next image">&#8250;</button>
+  </div>
+
+  <footer id="site-footer" class="site-footer"></footer>
+
+  <script src="js/utils.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/mode.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/gallery.js"></script>
+
+</body>
+</html>

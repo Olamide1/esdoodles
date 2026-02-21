@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" data-mode="portfolio">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E.S.Doodles — Writer · Illustrator · Social Media Manager</title>
+  <meta name="description" content="Portfolio of E.S.Doodles — content writer, illustrator, social media manager, and interactive designer. Stories in ink, pixels, and captions.">
+
+  <!-- Open Graph -->
+  <meta property="og:title"       content="E.S.Doodles — Portfolio">
+  <meta property="og:description" content="Writer. Illustrator. Social media manager. Stories in ink, pixels, and captions.">
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://esdoodles.com/">
+  <meta property="og:image"       content="https://esdoodles.com/assets/img/og-home.jpg">
+  <meta property="og:image:alt"   content="E.S.Doodles portfolio preview">
+
+  <!-- Twitter -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="E.S.Doodles">
+  <meta name="twitter:description" content="Writer. Illustrator. Social media manager.">
+  <meta name="twitter:image"       content="https://esdoodles.com/assets/img/og-home.jpg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/themes.css">
+  <link rel="stylesheet" href="css/pages.css">
+
+  <!-- Prevent FOUC: apply theme & mode before paint -->
+  <script>
+    (function () {
+      var t = localStorage.getItem('esd-theme') || 'dark';
+      var m = localStorage.getItem('esd-mode')  || 'portfolio';
+      document.documentElement.dataset.theme = t;
+      document.documentElement.dataset.mode  = m;
+    })();
+  </script>
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "E.S. Doodles",
+    "url": "https://esdoodles.com",
+    "description": "Content writer, illustrator, social media manager, and interactive designer.",
+    "sameAs": [
+      "https://www.instagram.com/e.s.doodles/",
+      "https://medium.com/@esdoodles",
+      "https://rive.app/@e.s.Doodles"
+    ],
+    "jobTitle": ["Content Writer", "Illustrator", "Social Media Manager", "Interactive Designer"]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Skip link -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- Nav (injected by main.js) -->
+  <header id="site-header" class="site-header"></header>
+
+  <main id="main">
+
+    <!-- ── HERO ── -->
+    <section class="hero" aria-label="Introduction">
+      <!-- Vine corner ornaments -->
+      <img src="assets/icons/vine-corner.svg"
+           class="hero__vine hero__vine--tl"
+           aria-hidden="true" alt=""
+           style="color:var(--violet)">
+      <img src="assets/icons/vine-corner.svg"
+           class="hero__vine hero__vine--tr"
+           aria-hidden="true" alt=""
+           style="color:var(--persephone)">
+
+      <div class="container hero__inner">
+
+        <!-- Portfolio mode text -->
+        <div class="hero__text portfolio-only" data-reveal>
+          <p class="hero__identity label">writer. illustrator. social media manager.</p>
+          <h1 class="hero__name">E.S.Doodles</h1>
+          <p class="hero__sub" id="hero-sub">
+            I make things worth looking at — and words worth reading.
+            Stories in ink, pixels, and captions.
+          </p>
+          <div class="hero__ctas">
+            <a href="work.html"    class="btn btn--primary">view work</a>
+            <a href="hire.html"    class="btn btn--secondary">hire me</a>
+          </div>
+        </div>
+
+        <!-- Hire mode text -->
+        <div class="hero__text hire-only" data-reveal>
+          <p class="hero__identity label">available for hire</p>
+          <h1 class="hero__name">E.S.Doodles</h1>
+          <p class="hero__sub">
+            Content writer and illustrator driving engagement through visual storytelling.
+            Open to full-time, contract, and freelance roles.
+          </p>
+          <div class="hero__ctas">
+            <a href="hire.html"    class="btn btn--primary">view resume</a>
+            <a href="contact.html" class="btn btn--secondary">get in touch</a>
+          </div>
+        </div>
+
+        <!-- Featured artwork -->
+        <div class="hero__art" data-reveal>
+          <div class="art-frame">
+            <img src="assets/img/hero-featured.jpg"
+                 srcset="assets/img/hero-featured-480.jpg 480w,
+                         assets/img/hero-featured.jpg 800w"
+                 sizes="(max-width: 767px) 100vw, 50vw"
+                 alt="Featured illustration by E.S.Doodles — a botanical character study"
+                 width="560" height="640"
+                 loading="eager"
+                 onerror="this.style.display='none';this.parentElement.classList.add('img-placeholder')">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── FEATURED LANES ── -->
+    <section id="section-lanes" class="lanes section portfolio-only" aria-label="Work categories">
+      <div class="container">
+        <div class="section__header" data-reveal>
+          <h2 class="section__title">the work</h2>
+          <a href="work.html" class="link-more">see all →</a>
+        </div>
+        <div class="lanes__grid" id="lanes-grid" aria-live="polite">
+          <!-- Populated by main.js -->
+          <noscript>
+            <p>Enable JavaScript to view the work grid.</p>
+            <a href="work.html">Browse all work</a>
+          </noscript>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── HIRE MODE: HIGHLIGHTS ── -->
+    <section class="section hire-only" aria-label="Hire highlights">
+      <div class="container">
+        <h2 class="section__title" data-reveal>what I bring</h2>
+        <p class="text-muted" style="margin-bottom:var(--sp-6);max-width:60ch" data-reveal>
+          Outcome-first summary. Replace placeholder text with real results.
+        </p>
+        <ul class="highlights-list" id="hire-highlights-home" data-reveal>
+          <li>Grew client Instagram from launch to 2,400 followers in 90 days through original illustrated content and strategic caption writing.</li>
+          <li>Developed brand voice guides for multiple independent brands, all adopted across every client-facing channel.</li>
+          <li>Delivered illustrated editorial spreads for independent publications, consistently on brief and on deadline.</li>
+          <li>Managed multiple concurrent client social accounts with engagement rates consistently above platform averages.</li>
+        </ul>
+        <div style="margin-top:var(--sp-6)" data-reveal>
+          <a href="hire.html" class="btn btn--primary">see full resume</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SOCIAL PROOF STRIP ── -->
+    <section id="section-proof" class="section section--dark" aria-label="Impact metrics">
+      <div class="container">
+        <h2 class="section__title" style="margin-bottom:var(--sp-7)" data-reveal>by the numbers</h2>
+        <div class="proof-strip" id="proof-strip" data-reveal>
+          <!-- Populated by main.js from copy.json -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Laurel divider -->
+    <div class="divider" aria-hidden="true">
+      <img src="assets/icons/laurel-divider.svg"
+           alt=""
+           style="color:var(--violet)">
+    </div>
+
+    <!-- ── WRITING HIGHLIGHTS ── -->
+    <section id="section-writing" class="section" aria-label="Writing samples">
+      <div class="container">
+        <div class="section__header" data-reveal>
+          <h2 class="section__title">recent writing</h2>
+          <a href="writing.html" class="link-more">see all writing →</a>
+        </div>
+        <div class="writing-highlights-list" id="writing-highlights" aria-live="polite">
+          <!-- Populated by main.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ── INTERACTIVE HIGHLIGHT ── -->
+    <section id="section-interactive" class="section section--dark" aria-label="Interactive work">
+      <div class="container">
+        <div class="section__header" data-reveal>
+          <h2 class="section__title">interactive</h2>
+          <a href="interactive.html" class="link-more">see all →</a>
+        </div>
+        <div class="interactive-highlight-inner" id="rive-highlight" data-reveal>
+          <!-- Populated by main.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CTA STRIP ── -->
+    <section id="section-cta" class="section" aria-label="Call to action">
+      <div class="container">
+        <div class="cta-strip__inner" data-reveal>
+          <p class="cta-strip__line" id="cta-strip-line">got a project in mind?</p>
+          <a href="contact.html" class="btn btn--primary btn--lg">let's talk</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer (injected by main.js) -->
+  <footer id="site-footer" class="site-footer"></footer>
+
+  <!-- Scripts -->
+  <script src="js/utils.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/mode.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

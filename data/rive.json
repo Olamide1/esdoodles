@@ -1,0 +1,74 @@
+[
+  {
+    "id": "persephone-loop",
+    "title": "Persephone Loop",
+    "rive_page_url": "https://rive.app/@e.s.Doodles",
+    "riv_src": null,
+    "artboard": "Persephone",
+    "state_machine": "SeasonCycle",
+    "poster": "assets/img/rive/persephone-loop-poster.jpg",
+    "summary": "An ambient looping animation following Persephone through the seasons — spring blooms give way to an autumnal descent, cycling endlessly. No interaction required; just watch.",
+    "tags": ["ambient", "mythology", "loop", "botanical", "seasonal"],
+    "height": 500
+  },
+  {
+    "id": "petal-pulse-rive",
+    "title": "Petal Pulse",
+    "rive_page_url": "https://rive.app/@e.s.Doodles",
+    "riv_src": null,
+    "artboard": "PetalPulse",
+    "state_machine": "MouseInteraction",
+    "poster": "assets/img/rive/petal-pulse-poster.jpg",
+    "summary": "Hover over the blooms to make them pulse, shift colour, and shed petals. A meditative interactive botanical piece — the piece responds to you without demanding anything.",
+    "tags": ["interactive", "botanical", "hover", "ambient", "mouse"],
+    "height": 480
+  },
+  {
+    "id": "starfield-navigator",
+    "title": "Starfield Navigator",
+    "rive_page_url": "https://rive.app/@e.s.Doodles",
+    "riv_src": null,
+    "artboard": "Starfield",
+    "state_machine": "Navigate",
+    "poster": "assets/img/rive/starfield-poster.jpg",
+    "summary": "Click through constellations to reveal short myth fragments — the story behind the stars. A small, exploratory interactive mythology reference.",
+    "tags": ["interactive", "mythology", "astronomy", "click", "narrative"],
+    "height": 520
+  },
+  {
+    "id": "hades-rise",
+    "title": "Hades, Rising",
+    "rive_page_url": "https://rive.app/@e.s.Doodles",
+    "riv_src": null,
+    "artboard": "HadesRise",
+    "state_machine": "Entrance",
+    "poster": "assets/img/rive/hades-rise-poster.jpg",
+    "summary": "A character reveal animation — Hades emerging from shadow into a deep indigo light. Click anywhere to trigger the entrance sequence.",
+    "tags": ["character", "mythology", "reveal", "click", "dark"],
+    "height": 600
+  },
+  {
+    "id": "lunar-calendar",
+    "title": "Lunar Calendar",
+    "rive_page_url": "https://rive.app/@e.s.Doodles",
+    "riv_src": null,
+    "artboard": "LunarCalendar",
+    "state_machine": "PhaseSelect",
+    "poster": "assets/img/rive/lunar-calendar-poster.jpg",
+    "summary": "Select a moon phase to reveal a short ritual note or lore fragment. A soft, interactive reference piece for the curious and the intentional.",
+    "tags": ["interactive", "moon", "wellness", "educational", "select"],
+    "height": 480
+  },
+  {
+    "id": "vine-growth",
+    "title": "Vine Growth",
+    "rive_page_url": "https://rive.app/@e.s.Doodles",
+    "riv_src": null,
+    "artboard": "VineGrowth",
+    "state_machine": "GrowthTrigger",
+    "poster": "assets/img/rive/vine-growth-poster.jpg",
+    "summary": "Tap to grow — watch a botanical vine spread across the canvas, branching in a different pattern each time. Simple, satisfying, endlessly repeatable.",
+    "tags": ["botanical", "growth", "tap", "generative", "loop"],
+    "height": 500
+  }
+]

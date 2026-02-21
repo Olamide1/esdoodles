@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" data-mode="portfolio">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page not found — E.S.Doodles</title>
+  <meta name="description" content="This page doesn't exist. Head back to the E.S.Doodles portfolio.">
+  <meta name="robots" content="noindex">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/themes.css">
+  <link rel="stylesheet" href="css/pages.css">
+
+  <script>
+    (function () {
+      var t = localStorage.getItem('esd-theme') || 'dark';
+      var m = localStorage.getItem('esd-mode')  || 'portfolio';
+      document.documentElement.dataset.theme = t;
+      document.documentElement.dataset.mode  = m;
+    })();
+  </script>
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Skip to main content</a>
+  <header id="site-header" class="site-header"></header>
+
+  <main id="main">
+
+    <div class="error-page">
+      <div class="container" style="display:flex;flex-direction:column;align-items:center">
+
+        <!-- Decorative vine -->
+        <img src="assets/icons/vine-corner.svg"
+             aria-hidden="true" alt=""
+             style="width:120px;opacity:0.3;transform:rotate(90deg);margin-bottom:var(--sp-5);color:var(--violet)">
+
+        <p class="error-page__code" aria-label="Error 404">404</p>
+        <h1 class="error-page__title">lost in the underworld</h1>
+        <p class="error-page__sub">
+          This page doesn't exist, or it's been moved.
+          Even Persephone found her way back eventually.
+        </p>
+
+        <div style="display:flex;gap:var(--sp-3);flex-wrap:wrap;justify-content:center">
+          <a href="index.html" class="btn btn--primary">go home</a>
+          <a href="work.html"  class="btn btn--secondary">see the work</a>
+        </div>
+
+        <!-- Laurel divider -->
+        <div class="divider" style="margin-top:var(--sp-9)">
+          <img src="assets/icons/laurel-divider.svg" alt="" style="color:var(--violet)">
+        </div>
+
+        <!-- Quick links -->
+        <nav aria-label="Quick links" style="text-align:center;margin-top:var(--sp-6)">
+          <p class="label" style="margin-bottom:var(--sp-4)">quick links</p>
+          <div style="display:flex;gap:var(--sp-3);flex-wrap:wrap;justify-content:center">
+            <a href="writing.html"     class="btn btn--ghost btn--sm">writing</a>
+            <a href="social.html"      class="btn btn--ghost btn--sm">social media</a>
+            <a href="interactive.html" class="btn btn--ghost btn--sm">interactive</a>
+            <a href="about.html"       class="btn btn--ghost btn--sm">about</a>
+            <a href="contact.html"     class="btn btn--ghost btn--sm">contact</a>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+  </main>
+
+  <footer id="site-footer" class="site-footer"></footer>
+
+  <script src="js/utils.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/mode.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

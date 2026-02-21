@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 60" fill="none" aria-hidden="true">
+  <!-- Organic petal shape -->
+  <path
+    d="M20 58
+       C20 58 4 44 4 28
+       C4 14 11 4 20 2
+       C29 4 36 14 36 28
+       C36 44 20 58 20 58 Z"
+    fill="currentColor"
+    opacity="0.7"
+  />
+  <!-- Centre vein -->
+  <path
+    d="M20 56 C20 40 20 20 20 4"
+    stroke="white"
+    stroke-width="0.75"
+    stroke-linecap="round"
+    opacity="0.35"
+    fill="none"
+  />
+</svg>

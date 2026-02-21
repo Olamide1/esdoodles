@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 60" fill="none" aria-hidden="true">
+  <!-- Centre ornament -->
+  <circle cx="240" cy="30" r="4" fill="currentColor" opacity="0.7"/>
+  <circle cx="240" cy="30" r="8" stroke="currentColor" stroke-width="1" opacity="0.3"/>
+  <!-- Short horizontal rules either side -->
+  <line x1="256" y1="30" x2="290" y2="30" stroke="currentColor" stroke-width="0.75" opacity="0.4"/>
+  <line x1="190" y1="30" x2="224" y2="30" stroke="currentColor" stroke-width="0.75" opacity="0.4"/>
+  <!-- Right branch -->
+  <path d="M296 30 C320 30 340 18 360 22" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M360 22 C380 18 400 28 420 24" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <!-- Right leaves -->
+  <ellipse cx="318" cy="24" rx="9" ry="5" transform="rotate(-20 318 24)" fill="currentColor" opacity="0.45"/>
+  <ellipse cx="346" cy="19" rx="9" ry="5" transform="rotate(-30 346 19)" fill="currentColor" opacity="0.4"/>
+  <ellipse cx="375" cy="22" rx="9" ry="5" transform="rotate(-15 375 22)" fill="currentColor" opacity="0.4"/>
+  <ellipse cx="405" cy="20" rx="8" ry="4.5" transform="rotate(-25 405 20)" fill="currentColor" opacity="0.35"/>
+  <ellipse cx="430" cy="23" rx="7" ry="4" transform="rotate(-10 430 23)" fill="currentColor" opacity="0.3"/>
+  <!-- Right berries -->
+  <circle cx="360" cy="22" r="2.5" fill="currentColor" opacity="0.5"/>
+  <circle cx="420" cy="24" r="2"   fill="currentColor" opacity="0.4"/>
+  <!-- Left branch (mirror) -->
+  <path d="M184 30 C160 30 140 18 120 22" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M120 22 C100 18 80 28 60 24"   stroke="currentColor" stroke-width="1.2" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <!-- Left leaves -->
+  <ellipse cx="162" cy="24" rx="9" ry="5" transform="rotate(20 162 24)"  fill="currentColor" opacity="0.45"/>
+  <ellipse cx="134" cy="19" rx="9" ry="5" transform="rotate(30 134 19)"  fill="currentColor" opacity="0.4"/>
+  <ellipse cx="105" cy="22" rx="9" ry="5" transform="rotate(15 105 22)"  fill="currentColor" opacity="0.4"/>
+  <ellipse cx="75"  cy="20" rx="8" ry="4.5" transform="rotate(25 75 20)" fill="currentColor" opacity="0.35"/>
+  <ellipse cx="50"  cy="23" rx="7" ry="4" transform="rotate(10 50 23)"   fill="currentColor" opacity="0.3"/>
+  <!-- Left berries -->
+  <circle cx="120" cy="22" r="2.5" fill="currentColor" opacity="0.5"/>
+  <circle cx="60"  cy="24" r="2"   fill="currentColor" opacity="0.4"/>
+</svg>

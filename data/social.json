@@ -1,0 +1,202 @@
+[
+  {
+    "id": "flora-brand",
+    "title": "Flora & Co. Instagram Strategy",
+    "brand": "Flora & Co.",
+    "role": "Social Media Manager, Content Writer, Graphic Designer",
+    "goal": "Launch and grow an Instagram presence for a new botanical lifestyle brand entering a competitive market, establishing a distinctive visual identity and brand voice from day one.",
+    "audience": "Women 25–40 interested in sustainable living, botanical aesthetics, and considered home design. Early adopter profile — seeks brands with an authentic point of view.",
+    "pillars": [
+      "Product education & use",
+      "Behind-the-scenes studio life",
+      "Community features & UGC",
+      "Seasonal botanical inspiration",
+      "Sustainability values in practice"
+    ],
+    "deliverables": [
+      "90-day content calendar",
+      "Brand voice guide (20 pages)",
+      "30 illustrated carousel and single-image assets",
+      "60 caption scripts",
+      "Weekly story sequence scripts",
+      "Monthly analytics reports with strategic notes"
+    ],
+    "tools": ["Canva", "Later", "Notion", "Photoshop", "Google Analytics"],
+    "metrics": [
+      { "label": "New followers", "value": "2,400", "timeframe": "90 days", "visibility": "public", "source": "Later analytics" },
+      { "label": "Average saves per post", "value": "380", "timeframe": "campaign period", "visibility": "public", "source": "Instagram Insights" },
+      { "label": "Engagement rate", "value": "6.2%", "timeframe": "campaign period", "visibility": "public", "source": "Instagram Insights" },
+      { "label": "Peak monthly reach", "value": "48,000", "timeframe": "month 3", "visibility": "public", "source": "Instagram Insights" }
+    ],
+    "images": ["assets/img/social/flora-1.jpg", "assets/img/social/flora-2.jpg", "assets/img/social/flora-3.jpg"],
+    "learnings": [
+      "Illustrated carousel content with a clear educational structure consistently outperformed photography by 3× on saves — original art is a genuine differentiator in a photography-saturated niche.",
+      "Community reshares and UGC prompts drove more sustained follower growth than hashtag strategy — building explicit prompts into the content calendar was high-impact.",
+      "Posting at 7–9am on weekdays reached a significantly higher save rate than evening posting for this audience; A/B testing scheduling assumptions early was worth the time."
+    ]
+  },
+  {
+    "id": "luna-collective",
+    "title": "Luna Collective Ongoing Social",
+    "brand": "Luna Collective",
+    "role": "Lead Social Media Manager",
+    "goal": "Develop and execute an ongoing content strategy for an independent wellness brand centred on moon cycle practices, growing an engaged community from a small base.",
+    "audience": "Adults 20–35 interested in wellness, intentional living, and spiritual practice. High engagement audience — prefers depth over volume.",
+    "pillars": [
+      "Moon cycle education",
+      "Ritual content & prompts",
+      "Community reflection & sharing",
+      "Product integration (soft sell)",
+      "Creator collabs & features"
+    ],
+    "deliverables": [
+      "Monthly content calendars (28-day lunar rhythm)",
+      "Caption writing for all posts",
+      "Story script sequences",
+      "Quarterly strategy reviews with competitor audit"
+    ],
+    "tools": ["Later", "Airtable", "Canva", "Notion"],
+    "metrics": [
+      { "label": "Follower growth", "value": "NDA", "timeframe": "6 months", "visibility": "nda", "source": "Instagram Insights" },
+      { "label": "Saves rate", "value": "NDA", "timeframe": "monthly avg.", "visibility": "nda", "source": "Instagram Insights" },
+      { "label": "Story engagement", "value": "NDA", "timeframe": "peak month", "visibility": "nda", "source": "Instagram Insights" }
+    ],
+    "images": ["assets/img/social/luna-1.jpg", "assets/img/social/luna-2.jpg"],
+    "learnings": [
+      "Tying content to real astronomical dates (actual moon phases, not generic scheduling) created anticipation and higher return-visit rates from core followers — the calendar structure itself became a retention mechanic.",
+      "Long-form educational carousel posts drove the highest saves of any format — this audience is readers, not scrollers.",
+      "Story engagement was disproportionately high; shifting resources toward more story output was one of the highest-ROI strategy changes of the engagement."
+    ]
+  },
+  {
+    "id": "sage-studio",
+    "title": "Sage Studio Launch Campaign",
+    "brand": "Sage Studio",
+    "role": "Content Strategist, Caption Writer",
+    "goal": "Build pre-launch buzz and convert Instagram followers into waitlist sign-ups for an independent art education platform launching to early access.",
+    "audience": "Beginner and intermediate visual artists, 18–35. Highly motivated learners who follow artist accounts for education, not just inspiration.",
+    "pillars": [
+      "Art tips & mini-tutorials",
+      "Founder story & mission",
+      "Behind-the-scenes of building the platform",
+      "Student spotlight (beta testers)",
+      "Waitlist CTA with clear value prop"
+    ],
+    "deliverables": [
+      "60-day pre-launch content calendar",
+      "Caption scripts for all posts",
+      "Email welcome sequence (3 emails)",
+      "Landing page headline and body copy"
+    ],
+    "tools": ["Notion", "Canva", "Mailchimp", "Later"],
+    "metrics": [
+      { "label": "Waitlist sign-ups", "value": "740", "timeframe": "60-day campaign", "visibility": "public", "source": "Mailchimp" },
+      { "label": "Instagram story CTR", "value": "4.8%", "timeframe": "campaign avg.", "visibility": "public", "source": "Instagram Insights" },
+      { "label": "Link-in-bio clicks", "value": "1,200+", "timeframe": "campaign period", "visibility": "public", "source": "Linktree analytics" }
+    ],
+    "images": ["assets/img/social/sage-1.jpg", "assets/img/social/sage-2.jpg"],
+    "learnings": [
+      "Founder-led content (face on camera, personal narrative) consistently outperformed polished graphic posts by a wide margin — authenticity is not a nice-to-have in this niche.",
+      "Specific benefit CTAs (\"join the waitlist for early access to X module\") significantly outperformed generic \"sign up now\" calls to action — the more specific the promise, the higher the conversion.",
+      "Weekly story polls about curriculum preferences doubled as audience research and boosted engagement in one move — that kind of dual-purpose content became a template for the whole campaign."
+    ]
+  },
+  {
+    "id": "meridian-press",
+    "title": "Meridian Press Social Revitalisation",
+    "brand": "private",
+    "role": "Social Media Manager",
+    "goal": "Revitalise dormant social media accounts for an independent literary publisher and build an engaged reader community around their catalogue.",
+    "audience": "Literary fiction readers, 28–55. Highly literate, trust-sensitive audience that responds poorly to overt marketing and strongly to genuine enthusiasm.",
+    "pillars": [
+      "Book spotlight content (extract + context)",
+      "Author features & interviews",
+      "Reading community prompts",
+      "Behind-the-scenes of independent publishing",
+      "Seasonal reading lists"
+    ],
+    "deliverables": [
+      "Account audit and 12-week strategy document",
+      "Monthly content calendars",
+      "Caption copy for all posts",
+      "Community management (comments and DMs, 5 days/week)"
+    ],
+    "tools": ["Later", "Notion", "Canva", "Google Analytics"],
+    "metrics": [
+      { "label": "Follower growth", "value": "NDA", "timeframe": "4 months", "visibility": "nda", "source": "Platform analytics" },
+      { "label": "Engagement rate change", "value": "NDA", "timeframe": "vs. prior period", "visibility": "nda", "source": "Platform analytics" }
+    ],
+    "images": ["assets/img/social/meridian-1.jpg"],
+    "learnings": [
+      "Quote graphics from the books — well-chosen, typeset simply — generated the highest share rates of any format; readable, extractable value travels.",
+      "Author interview content (even short Q&A graphics) drove the most meaningful DM conversations with potential readers and buyers.",
+      "Consistency beat volume consistently: posting 4 times per week outperformed 7 times per week on every engagement metric. Quality of attention matters more than quantity of posts."
+    ]
+  },
+  {
+    "id": "nova-apparel",
+    "title": "Nova Apparel Content Strategy",
+    "brand": "Nova Apparel",
+    "role": "Content Strategist, Illustrator",
+    "goal": "Create a distinctive illustrated visual identity for a streetwear brand's social channels and drive engagement around product drops.",
+    "audience": "Young adults 18–28 interested in streetwear, independent art, and youth culture. High aesthetic standards; brand loyalty is earned through creative credibility.",
+    "pillars": [
+      "Illustrated look-book and editorial content",
+      "Artist collaborations and features",
+      "Drop announcements and reveal sequences",
+      "Culture commentary (art, music, street)",
+      "Community highlights and tags"
+    ],
+    "deliverables": [
+      "Social visual identity guidelines (12 pages)",
+      "10 illustrated post templates (editable in Canva)",
+      "Monthly content calendar",
+      "Caption scripts for all posts"
+    ],
+    "tools": ["Procreate", "Photoshop", "Canva", "Later", "Notion"],
+    "metrics": [
+      { "label": "Post reach — illustrated drop reveal", "value": "62,000", "timeframe": "single post", "visibility": "public", "source": "Instagram Insights" },
+      { "label": "New followers from drop post", "value": "1,100", "timeframe": "48 hours", "visibility": "public", "source": "Instagram Insights" },
+      { "label": "Story views on launch day", "value": "NDA", "timeframe": "launch day", "visibility": "nda", "source": "Instagram Insights" }
+    ],
+    "images": ["assets/img/social/nova-1.jpg", "assets/img/social/nova-2.jpg"],
+    "learnings": [
+      "Original illustrated content significantly outperformed product photography for this brand and audience — creative differentiation is the actual competitive advantage here.",
+      "Drop reveal story sequences with countdown stickers drove 3× the traffic of standard story posts; anticipation mechanics are effective when the product has genuine appeal.",
+      "Caption length was inversely correlated with engagement for this audience — shorter, punchier, often one line. Reading habits differ sharply between niches."
+    ]
+  },
+  {
+    "id": "verdant-zero",
+    "title": "Verdant Zero Sustainability Campaign",
+    "brand": "Verdant Zero",
+    "role": "Social Media Manager, Content Writer",
+    "goal": "Run a focused 30-day awareness campaign for a sustainability product launch, using educational carousel content to build credibility and drive conversions.",
+    "audience": "Eco-conscious consumers, 25–45. Highly information-literate; fact-checks claims; distrusts greenwashing. Trust must be earned through transparency.",
+    "pillars": [
+      "Environmental education (fact-based, cited)",
+      "Product demonstration and proof",
+      "Impact storytelling (real numbers)",
+      "Community action prompts",
+      "Expert and partner features"
+    ],
+    "deliverables": [
+      "30-day content calendar",
+      "8 educational carousel posts (10 slides each)",
+      "Caption scripts for all posts",
+      "3 micro-influencer collaboration briefs"
+    ],
+    "tools": ["Canva", "Later", "Notion", "Airtable"],
+    "metrics": [
+      { "label": "Total carousel saves", "value": "2,800+", "timeframe": "campaign period combined", "visibility": "public", "source": "Instagram Insights" },
+      { "label": "Story link CTR", "value": "5.3%", "timeframe": "campaign avg.", "visibility": "public", "source": "Instagram Insights" },
+      { "label": "Accounts reached", "value": "NDA", "timeframe": "campaign period", "visibility": "nda", "source": "Instagram Insights" }
+    ],
+    "images": ["assets/img/social/verdant-1.jpg", "assets/img/social/verdant-2.jpg"],
+    "learnings": [
+      "Educational carousel content with a strict 'one fact per slide' structure achieved the highest completion rates — complexity presented simply outperforms simplified content every time.",
+      "This audience fact-checks. In-post source citations were not optional; they were the difference between shares and silence. Cite everything.",
+      "Partnering with micro-influencers in the sustainability niche (under 50K followers) drove more targeted engagement and more genuine conversations than broader reach options."
+    ]
+  }
+]

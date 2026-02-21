@@ -1,0 +1,272 @@
+[
+  {
+    "id": "spring-spirits",
+    "title": "Spring Spirits",
+    "year": 2024,
+    "lane": "illustration",
+    "tags": ["mythology", "digital painting", "character design", "botanical", "nature"],
+    "thumbnail": "assets/img/projects/spring-spirits-thumb.jpg",
+    "images": [
+      "assets/img/projects/spring-spirits-1.jpg",
+      "assets/img/projects/spring-spirits-2.jpg",
+      "assets/img/projects/spring-spirits-3.jpg"
+    ],
+    "alt_text": "A series of botanical character illustrations depicting seasonal spirits in warm duotone colours",
+    "description": "A personal series exploring the intersection of botanical illustration and mythological character design. Each figure embodies a specific plant genus — their forms, moods, and palettes driven by the plant's real ecology.",
+    "story": [
+      "This series began as a sketchbook exploration: what would it look like if plants took humanoid form? I drew on the Persephone myth as a structural reference — the idea of beings whose identity is literally rooted in a place, a season, a cycle.",
+      "Each character went through multiple rounds of thumbnail sketches, value studies in greyscale, and colour explorations before final rendering in Procreate. I limited each piece to a three-colour palette to force cohesion across the series.",
+      "The biggest challenge was balancing botanical accuracy with expressive character design. I spent a lot of time with reference photographs and botanical diagrams before any mark-making."
+    ],
+    "role": "Solo artist — concept, illustration, colour direction",
+    "tools": ["Procreate", "Photoshop"]
+  },
+  {
+    "id": "underworld-dreams",
+    "title": "Underworld Dreams",
+    "year": 2023,
+    "lane": "illustration",
+    "tags": ["mythology", "digital painting", "environment", "dark fantasy", "atmosphere"],
+    "thumbnail": "assets/img/projects/underworld-dreams-thumb.jpg",
+    "images": [
+      "assets/img/projects/underworld-dreams-1.jpg",
+      "assets/img/projects/underworld-dreams-2.jpg",
+      "assets/img/projects/underworld-dreams-3.jpg"
+    ],
+    "alt_text": "Dark atmospheric digital paintings of mythological underworld environments — Asphodel, Elysium, and Tartarus",
+    "description": "A series of atmospheric environment illustrations reimagining the Greek underworld's distinct realms through a contemporary visual lens.",
+    "story": [
+      "Inspired by scattered descriptions across ancient texts — Homer, Virgil, Pindar — this series asks: what would each realm actually feel like to inhabit? Not as stage dressing for a hero's journey, but as a place.",
+      "Asphodel is grey and flat, fog at knee height, indistinct outlines. Elysium is almost unbearably bright, the light slightly wrong, like a memory of summer rather than summer itself. Tartarus is structural — walls and angles, fire that doesn't flicker.",
+      "The challenge was sustaining a cohesive visual language across three pieces with radically different moods. I used a shared edge treatment — soft, slightly luminous outlines — to keep them in the same world."
+    ],
+    "role": "Solo artist — concept, illustration, colour",
+    "tools": ["Procreate", "Photoshop"]
+  },
+  {
+    "id": "myth-and-mind",
+    "title": "Myth & Mind",
+    "year": 2024,
+    "lane": "comics",
+    "tags": ["comics", "mythology", "sequential art", "character design", "psychology"],
+    "thumbnail": "assets/img/projects/myth-and-mind-thumb.jpg",
+    "images": [
+      "assets/img/projects/myth-and-mind-1.jpg",
+      "assets/img/projects/myth-and-mind-2.jpg",
+      "assets/img/projects/myth-and-mind-3.jpg",
+      "assets/img/projects/myth-and-mind-4.jpg"
+    ],
+    "alt_text": "Pages from Myth & Mind — a sequential art comic exploring Jungian archetypes through Greek mythology",
+    "description": "An ongoing comic series mapping Jungian archetypes to ancient Greek myths. The visual language merges classical fresco aesthetics with clean flat graphic design.",
+    "story": [
+      "Myth & Mind started as a thesis question: if Jung drew from Greek myth to build his archetypes, what happens when you reverse the process and read the myths through the archetypes?",
+      "Each issue pairs a mythological figure with an archetypal concept. Issue 1 covers the Hero and Theseus; Issue 2 unpacks the Trickster through Hermes. The visual style uses flat fills with ornamental line detail, referencing Ancient Greek vase painting without directly copying it.",
+      "I write and illustrate every page solo, which makes the process slow but keeps the voice unified. The letttering is hand-drawn and digitally refined."
+    ],
+    "role": "Writer, Illustrator, Letterer",
+    "tools": ["Procreate", "Clip Studio Paint", "Photoshop"]
+  },
+  {
+    "id": "divine-fragments",
+    "title": "Divine Fragments",
+    "year": 2023,
+    "lane": "comics",
+    "tags": ["comics", "anthology", "mythology", "short stories", "self-published"],
+    "thumbnail": "assets/img/projects/divine-fragments-thumb.jpg",
+    "images": [
+      "assets/img/projects/divine-fragments-1.jpg",
+      "assets/img/projects/divine-fragments-2.jpg"
+    ],
+    "alt_text": "Cover and interior pages of Divine Fragments, a self-published anthology of short myth-retelling comics",
+    "description": "A self-published anthology collecting eight short comic stories, each retelling the myth of a minor deity or nymph who rarely receives their own narrative.",
+    "story": [
+      "Divine Fragments came from frustration with how anthology comics tend to flatten the contributions — everyone writes in the same general style and the whole thing reads as one bland voice. I wanted to do the opposite: let each story have a totally distinct look.",
+      "The eight stories range from a two-page silent piece about Lethe (the river of forgetfulness) to a twelve-page story about the nymph Syrinx. Each uses a different palette and linework approach — some are painterly, some are stark graphic.",
+      "Self-publishing meant I handled everything: writing, illustration, cover design, formatting for print, and distribution. It sold out its first print run of 50 copies through Instagram direct orders."
+    ],
+    "role": "Writer, Illustrator, Designer, Publisher",
+    "tools": ["Procreate", "Clip Studio Paint", "Photoshop", "Adobe InDesign"]
+  },
+  {
+    "id": "olympus-observed",
+    "title": "Olympus Observed",
+    "year": 2024,
+    "lane": "writing",
+    "tags": ["essay series", "mythology", "pop culture", "analysis", "medium"],
+    "thumbnail": "assets/img/projects/olympus-observed-thumb.jpg",
+    "images": [
+      "assets/img/projects/olympus-observed-1.jpg"
+    ],
+    "alt_text": "Article header for Olympus Observed — a Medium essay series on Greek mythology in contemporary visual media",
+    "description": "An ongoing Medium essay series analysing how Greek mythology is reinterpreted across contemporary graphic novels, animation, and digital illustration.",
+    "story": [
+      "This series grew from a simple observation: mythology has never left popular culture, but the ways we retell it keep shifting. I wanted to write criticism that took the visual dimension of modern myth-retellings seriously — not just the story choices, but the drawing style, the palette, the page architecture.",
+      "Each essay builds a close reading of a single work alongside its mythological source, then widens out to a cultural argument. I try to keep the language accessible without dumbing the analysis down.",
+      "Published on Medium with a small but engaged reader base. The most widely read piece reached [X] reads — placeholder pending analytics access."
+    ],
+    "role": "Writer, Editor",
+    "tools": ["Notion", "Medium"],
+    "external_link": "https://medium.com/@esdoodles"
+  },
+  {
+    "id": "between-worlds",
+    "title": "Between Worlds",
+    "year": 2023,
+    "lane": "writing",
+    "tags": ["creative nonfiction", "personal essay", "identity", "digital culture", "art"],
+    "thumbnail": "assets/img/projects/between-worlds-thumb.jpg",
+    "images": [
+      "assets/img/projects/between-worlds-1.jpg"
+    ],
+    "alt_text": "Decorative header for Between Worlds — a personal essay collection about art and digital identity",
+    "description": "A five-part personal essay collection exploring what it means to be a visual artist navigating text-heavy digital spaces.",
+    "story": [
+      "Between Worlds started from a specific irritation: the internet gives visual artists enormous reach, but most of the tools — captions, bios, threads — are still deeply text-centric. What does it do to the work to translate it into words constantly?",
+      "The five essays each take a specific artifact as their anchor — a single Instagram post, a comic page, a piece of fan mail — and use it to open up a larger question about audience, authorship, and the gap between intention and reception.",
+      "I wrote these over about eight months, going back and forth between long draft sessions and letting them breathe. They're the most personal writing I've published."
+    ],
+    "role": "Writer, Editor",
+    "tools": ["Notion", "Medium"],
+    "external_link": "https://medium.com/@esdoodles"
+  },
+  {
+    "id": "flora-brand-social",
+    "title": "Flora & Co. Instagram Strategy",
+    "year": 2024,
+    "lane": "social",
+    "tags": ["instagram", "brand strategy", "content creation", "botanical", "copywriting"],
+    "thumbnail": "assets/img/projects/flora-brand-thumb.jpg",
+    "images": [
+      "assets/img/projects/flora-brand-1.jpg",
+      "assets/img/projects/flora-brand-2.jpg",
+      "assets/img/projects/flora-brand-3.jpg"
+    ],
+    "alt_text": "Instagram grid mockup and content asset examples for Flora & Co. botanical lifestyle brand",
+    "description": "End-to-end social media content strategy and creation for a new botanical lifestyle brand — from voice guide to 90-day execution.",
+    "story": [
+      "Flora & Co. came to me with a beautiful product and no idea how to talk about it online. I built their content strategy from scratch: audience definition, content pillars, visual identity guidelines for social, and a 90-day editorial calendar.",
+      "I created all graphic assets, wrote every caption, and managed community engagement throughout the campaign. The illustrated content I produced — botanical how-to carousels and educational posts — consistently outperformed photography by 3×.",
+      "By the end of the 90-day engagement, the account had grown by 2,400 followers, with an average save rate of 380 per post and a sustained 6.2% engagement rate."
+    ],
+    "role": "Social Media Manager, Content Writer, Graphic Designer",
+    "tools": ["Canva", "Later", "Notion", "Photoshop", "Google Analytics"],
+    "metrics": [
+      { "label": "Follower growth", "value": "+2,400", "timeframe": "90 days", "visibility": "public" },
+      { "label": "Avg. saves per post", "value": "380", "timeframe": "campaign period", "visibility": "public" },
+      { "label": "Engagement rate", "value": "6.2%", "timeframe": "campaign period", "visibility": "public" },
+      { "label": "Peak monthly reach", "value": "48,000", "timeframe": "month 3", "visibility": "public" }
+    ]
+  },
+  {
+    "id": "luna-collective",
+    "title": "Luna Collective",
+    "year": 2023,
+    "lane": "social",
+    "tags": ["instagram", "wellness", "content strategy", "community", "brand voice"],
+    "thumbnail": "assets/img/projects/luna-collective-thumb.jpg",
+    "images": [
+      "assets/img/projects/luna-collective-1.jpg",
+      "assets/img/projects/luna-collective-2.jpg"
+    ],
+    "alt_text": "Content grid examples and story templates for Luna Collective wellness brand",
+    "description": "Ongoing social content strategy and execution for an independent wellness brand focused on moon cycle practices.",
+    "story": [
+      "Luna Collective is an ongoing relationship — I built their content strategy from audience research and have managed their social presence month-to-month since 2023.",
+      "The brand's audience is deeply engaged but expects consistency and authenticity. I developed a content framework around the lunar calendar itself: every post cycle maps to a phase, which means planning happens in 28-day rhythms rather than standard monthly blocks.",
+      "Results are under NDA, but the account has sustained measurable growth and above-average saves rates throughout our partnership."
+    ],
+    "role": "Lead Social Media Manager",
+    "tools": ["Later", "Airtable", "Canva", "Notion"],
+    "metrics": [
+      { "label": "Follower growth", "value": "NDA", "timeframe": "6 months", "visibility": "nda" },
+      { "label": "Saves rate", "value": "NDA", "timeframe": "campaign avg.", "visibility": "nda" },
+      { "label": "Reach", "value": "NDA", "timeframe": "peak month", "visibility": "nda" }
+    ]
+  },
+  {
+    "id": "myth-motion",
+    "title": "Myth in Motion",
+    "year": 2024,
+    "lane": "interactive",
+    "tags": ["rive", "animation", "mythology", "interactive narrative", "state machine"],
+    "thumbnail": "assets/img/projects/myth-motion-thumb.jpg",
+    "images": [
+      "assets/img/projects/myth-motion-1.jpg",
+      "assets/img/projects/myth-motion-2.jpg"
+    ],
+    "alt_text": "Screenshot of Myth in Motion — an interactive Rive animation telling the Persephone myth through clickable states",
+    "description": "An interactive Rive piece letting viewers navigate the myth of Persephone through clickable scene transitions and branching story states.",
+    "story": [
+      "Myth in Motion was my first serious attempt at interactive narrative design. The goal was simple: take a myth people think they know and let them move through it at their own pace, making small choices that reveal different details.",
+      "The state machine required planning every possible user path before touching a single animation. I mapped it on paper first — entrance states, hover states, click transitions, exit loops — and the Rive build was actually faster because of it.",
+      "The piece taught me that interactive animation is fundamentally different from sequential illustration. Every frame needs to make sense as a held state, not just a moment in a transition."
+    ],
+    "role": "Interactive Designer, Animator, Writer",
+    "tools": ["Rive", "Procreate", "Figma"],
+    "external_link": "https://rive.app/@e.s.Doodles"
+  },
+  {
+    "id": "petal-pulse",
+    "title": "Petal Pulse",
+    "year": 2024,
+    "lane": "interactive",
+    "tags": ["rive", "animation", "ambient", "botanical", "hover", "mouse interaction"],
+    "thumbnail": "assets/img/projects/petal-pulse-thumb.jpg",
+    "images": [
+      "assets/img/projects/petal-pulse-1.jpg"
+    ],
+    "alt_text": "Animated botanical illustration from Petal Pulse — Rive ambient interactive piece",
+    "description": "A looping ambient animation of botanical forms that respond to mouse position — colour and scale shift softly as you move through the canvas.",
+    "story": [
+      "Petal Pulse grew from curiosity about Rive's listener events. I wanted to make something that felt alive without demanding attention — ambient interaction, not a game.",
+      "Mouse position drives subtle colour shifts (cool to warm) and scale changes across a layered botanical composition. The transitions are slow enough that some people don't immediately realise the piece is responding to them.",
+      "That delayed realisation is the whole point. It rewards sustained attention without requiring it."
+    ],
+    "role": "Interactive Designer, Animator",
+    "tools": ["Rive", "Procreate"],
+    "external_link": "https://rive.app/@e.s.Doodles"
+  },
+  {
+    "id": "roots-review",
+    "title": "Roots Review",
+    "year": 2023,
+    "lane": "editorial",
+    "tags": ["editorial", "illustration", "magazine", "nature writing", "commissioned"],
+    "thumbnail": "assets/img/projects/roots-review-thumb.jpg",
+    "images": [
+      "assets/img/projects/roots-review-1.jpg",
+      "assets/img/projects/roots-review-2.jpg",
+      "assets/img/projects/roots-review-3.jpg"
+    ],
+    "alt_text": "Editorial illustration spreads created for Roots Review — an independent literary magazine on nature and ecology",
+    "description": "Three full-spread editorial illustrations commissioned for Roots Review, an independent literary magazine focused on nature writing and ecology.",
+    "story": [
+      "Roots Review publishes long essays about place, ecology, and the more-than-human world. The editor reached out after seeing the botanical work in my Spring Spirits series.",
+      "Each illustration accompanies a specific essay, so the brief is text-first: read the essay deeply, find the image that lives inside it. For one piece about rewilding, I illustrated the tension between managed woodland and wild growth through two contrasting plant forms sharing one frame.",
+      "I work closely with editors on these — it's genuinely collaborative, not a handoff after a brief. That's the kind of editorial work I find most interesting."
+    ],
+    "role": "Editorial Illustrator",
+    "tools": ["Procreate", "Photoshop"]
+  },
+  {
+    "id": "celestial-quarterly",
+    "title": "Celestial Quarterly",
+    "year": 2024,
+    "lane": "editorial",
+    "tags": ["editorial", "illustration", "science communication", "astronomy", "commissioned"],
+    "thumbnail": "assets/img/projects/celestial-quarterly-thumb.jpg",
+    "images": [
+      "assets/img/projects/celestial-quarterly-1.jpg",
+      "assets/img/projects/celestial-quarterly-2.jpg"
+    ],
+    "alt_text": "Illustrated editorial spreads for Celestial Quarterly — a science communication magazine covering astronomy",
+    "description": "Ongoing quarterly illustration series for a science communication magazine, translating complex astronomical concepts into accessible visual narratives.",
+    "story": [
+      "Each quarter I deliver two full-page illustrations for Celestial Quarterly. The challenge is balancing scientific accuracy with visual storytelling for a general-audience publication — the editors check the science, I push for the feeling.",
+      "My favourite commission so far was a piece on the Oort Cloud: a vast, cold, barely-understood shell of icy bodies at the edge of the solar system. Representing 'vast and barely understood' visually without resorting to generic space imagery required several rounds of concept sketches.",
+      "Editorial illustration keeps me honest. Deadlines are real, briefs are specific, and there's no room for indulgent style experiments when a 3,000-word article is waiting."
+    ],
+    "role": "Editorial Illustrator",
+    "tools": ["Procreate", "Illustrator", "Photoshop"]
+  }
+]

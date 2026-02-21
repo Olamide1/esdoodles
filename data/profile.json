@@ -1,0 +1,81 @@
+{
+  "name": "E.S. Doodles",
+  "roles": ["Content Writer", "Illustrator", "Social Media Manager", "Interactive Designer"],
+  "short_bio_lines": [
+    "I make things worth looking at — and words worth reading.",
+    "My work lives at the crossover between mythology, visual culture, and digital storytelling."
+  ],
+  "email": "hello@esdoodles.com",
+  "location": "Remote",
+  "links": {
+    "instagram": "https://www.instagram.com/e.s.doodles/",
+    "medium": "https://medium.com/@esdoodles",
+    "rive": "https://rive.app/@e.s.Doodles",
+    "linkedin": ""
+  },
+  "tools": [
+    "Procreate", "Photoshop", "Illustrator", "Clip Studio Paint",
+    "Rive", "Figma", "Notion", "Later", "Airtable", "Canva",
+    "Final Draft", "Google Analytics"
+  ],
+  "skills": {
+    "writing": [
+      "Long-form articles", "Essay writing", "Script development",
+      "Caption copywriting", "Newsletter writing", "Editorial voice",
+      "Brand voice guides", "Creative nonfiction"
+    ],
+    "social": [
+      "Content strategy", "Community management", "Analytics & reporting",
+      "Content calendar management", "Platform-specific writing",
+      "Hashtag research", "UGC campaigns", "Influencer briefs"
+    ],
+    "creative": [
+      "Character illustration", "Comics & sequential art", "Digital painting",
+      "Editorial illustration", "Concept art", "Moodboarding",
+      "Botanical illustration", "Visual development"
+    ],
+    "interactive": [
+      "Rive animations", "State machine design", "Motion graphics",
+      "Interactive storyboarding", "UI animation concepts", "Ambient loop design"
+    ]
+  },
+  "experience": [
+    {
+      "company": "[Company Name]",
+      "title": "Social Media Manager & Content Writer",
+      "start": "2022",
+      "end": "Present",
+      "bullets": [
+        "Grew client Instagram presence by [X]% in 90 days through original illustrated content and caption strategy.",
+        "Developed brand voice guides adopted across all client-facing channels for [N] independent brands.",
+        "Managed content calendars for [N] concurrent brand accounts with consistent above-average engagement.",
+        "Produced [N] illustrated editorial assets per month for digital and print clients."
+      ]
+    },
+    {
+      "company": "[Previous Company / Freelance]",
+      "title": "Freelance Illustrator & Writer",
+      "start": "2020",
+      "end": "2022",
+      "bullets": [
+        "Delivered illustrated editorial spreads for [N] independent publication issues, on deadline.",
+        "Wrote and illustrated a self-published comic series reaching [X] readers.",
+        "Created social media asset packs and brand identity materials for small business clients.",
+        "Published essays and analysis pieces on Medium covering mythology, visual culture, and creative craft."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "[University Name]",
+      "program": "[Program — e.g. BFA Visual Communication / BA English]",
+      "years": "2016 – 2020"
+    }
+  ],
+  "featured": {
+    "projects": ["spring-spirits", "myth-and-mind", "flora-brand-social", "myth-motion"],
+    "writing": ["digital-mythology", "persephone-paradox", "captioning-as-craft"],
+    "social": ["flora-brand", "luna-collective"],
+    "rive": ["petal-pulse-rive"]
+  }
+}
